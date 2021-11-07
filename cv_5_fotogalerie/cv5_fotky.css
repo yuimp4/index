@@ -1,0 +1,41 @@
+@font-face {
+    font-family: myfont;
+    src: url('font/Sanserifing.ttf');
+}
+body {
+    background-color: rgb(244, 176, 123);
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+h1, h2 {
+    font-family: myfont;
+}
+h2 {
+    color: rgb(59, 107, 180);
+    font-family: myfont;
+}
+div.polaroid {
+    width: 350px;
+    margin: 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+div.polaroid img {
+    aspect-ratio: 1/1;
+}
+.text {
+    color: white;
+    font-weight: bold;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: rgb(26, 101, 158);
+}

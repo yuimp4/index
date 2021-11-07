@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Použití CSS selektorů</title>
+    <style>
+        body {
+            background-color:rgb(252, 244, 255);
+            color: rgb(44, 44, 52);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2 {
+            color: rgb(94, 55, 129);
+            font-size: 30px;
+        }
+        a:link {
+            color:rgb(15, 113, 115);
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(88, 202, 204);
+            text-decoration:wavy;
+            font-size: 150%;
+        }
+        a:active {
+            color: rgb(6, 93, 180);
+            text-decoration: wavy;
+        }
+        .mojeFormatovani {
+            font-size: 19px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #menu {
+            color: rgb(71, 50, 192);
+        }
+        p {outline-color: rgb(75, 0, 94);}
+        p.double {outline-style: double;}
+        .paticka {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">Lorem ipsum ...</h1>
+<hr>
+<p id="menu"><a id="hlavni" href="" >Odkaz1</a> | <a href="">Odkaz2</a> </p>
+<hr>
+<h2>Lorem ipsum ...</h2>
+<p class="double">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci non nibh tristique interdum vitae ac felis. Pellentesque sagittis turpis non accumsan gravida. Maecenas nulla massa, lobortis vel justo ultricies, pellentesque efficitur massa. Ut finibus a ex quis condimentum. Donec dignissim posuere justo, ac <strong>pellentesque eros dignissim nec.</strong> Integer euismod magna ac arcu porta luctus. Nulla hendrerit faucibus purus sit amet lobortis. Sed vitae euismod tortor. Aenean nec mi rhoncus, elementum justo eget, venenatis velit. Vestibulum eget lectus at arcu facilisis commodo. <strong><code>Sed eros turpis, pulvinar vel lectus non, convallis viverra dolor.</code></strong> <em>Aliquam luctus dolor eu nisi gravida</em>, ut <code>feugiat nisi accumsan.</code> Aliquam orci metus, fermentum id placerat nec, sodales id est. Praesent maximus sagittis malesuada. Donec porttitor ac risus in pharetra. Integer congue nibh quis luctus tincidunt.</p>
+
+<h2>Lorem ipsum ...</h2>
+<p class="mojeFormatovani">Aenean semper volutpat ex, vitae tincidunt purus eleifend quis. Sed ac ultricies sapien. Etiam in nibh non massa tincidunt consequat. Duis convallis imperdiet imperdiet. Pellentesque laoreet ex in massa dapibus accumsan. Ut sodales leo et lacus porttitor, molestie luctus orci finibus. Maecenas vulputate mollis sem eu mollis. Quisque vulputate tellus id purus fringilla maximus. Mauris porttitor convallis vestibulum. Nunc quis hendrerit massa. Pellentesque et dictum elit, sed faucibus nunc. Orci varius natoque penatibus et magnis dis parturient montes, <em>nascetur ridiculus mus</em>. Cras porttitor gravida neque.</p>
+
+<div class="paticka">
+<h2>Lorem ipsum ...</h2>
+<p style="background-color: rgb(244, 144, 145);">Quisque in diam nisi. Sed a ultrices ex. Morbi at velit ullamcorper urna finibus mattis eu quis enim. Maecenas vitae urna vitae odio commodo aliquam sit amet et nisi. Praesent ut luctus purus. <strong>Phasellus egestas,</strong> augue in cursus condimentum, lacus nisl venenatis odio, at venenatis libero ipsum sed augue. <strong>Etiam urna eros, porta in gravida quis, tristique in velit.</strong> Proin iaculis augue sit amet arcu ultricies, eu commodo mi finibus. <a href="">Fusce interdum</a> nisl gravida urna pretium vehicula.</p>
+</div>
+</body>
+</html>

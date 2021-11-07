@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+}
+tr, td {
+    border-style: none;
+    border-bottom: 1px dashed;
+}
+th {
+    text-align: right;
+    border: 1px solid black;
+}
+td {
+    text-align: left;
+}
+#tr1, #tr2 {
+    border: 1px solid black;
+}
+#tr1 {
+    background-color: white;
+    color: red;
+}
+#tr2 {
+    background-color: rgb(64, 124, 64);
+    color: rgb(255, 217, 4);
+}
+td.m:hover {
+    font-style: italic;
+}
+.sediva {
+    background-color: rgb(158, 158, 158);
+}

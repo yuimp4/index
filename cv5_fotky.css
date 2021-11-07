@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myfont;
+    src: url('fonty/Sanserifing.ttf');
+}
+body {
+    background-color: rgb(253, 219, 239);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h1, h2 {
+    font-family: myfont;
+}
+h2 {
+    color: darkblue;
+    font-family: Sanserifing.ttf;
+}
+.popis {
+    background-color: rgb(245, 208, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.polaroid {
+    border: 1px solid black;
+}
+p {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
